@@ -1,38 +1,35 @@
-$base: "~font-awesome/fonts";
 @font-face {
-  font-family: "FontAwesome";
-	font-style: normal;
-	font-weight: normal;
-  src: url("#{$base}/fontawesome-webfont.eot"); /* For IE6-8 */
-  src: local("#{$base}/FontAwesome"),
-  local("#{$base}/fontawesome-webfont"),
-  url("#{$base}/fontawesome-webfont.woff2") format("woff2"),
-  url("#{$base}/fontawesome-webfont.woff") format("woff"),
-  url("#{$base}/fontawesome-webfont.ttf") format("truetype");
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('#{$font-path}/fontawesome-webfont.eot'); // /* For IE6-8 */
+  src: local('#{$font-path}/FontAwesome'),
+  local('#{$font-path}/fontawesome-webfont'),
+  url('#{$font-path}/fontawesome-webfont.woff2') format('woff2'),
+  url('#{$font-path}/fontawesome-webfont.woff') format('woff'),
+  url('#{$font-path}/fontawesome-webfont.ttf') format('truetype');
 }
 
-ion-icon[fa-name] {
-  font-family: "FontAwesome";
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
+[fa-name] {
   direction: ltr;
-  width: auto;
-  height: auto;
-
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
+  font-family: 'FontAwesome';
+  // /* Support for IE. */
+  font-feature-settings: 'liga';
+  // /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: "liga";
+  // /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  height: auto;
+  letter-spacing: normal;
+  // /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  white-space: nowrap;
+  width: auto;
+  word-wrap: normal;
 }
 
-ion-icon[fa-name][item-left], ion-icon[fa-name][item-right] {
+[fa-name][item-left],
+[fa-name][item-right] {
   margin-right: 4px;
 }

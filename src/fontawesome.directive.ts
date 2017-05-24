@@ -6,12 +6,11 @@ import { Directive, ElementRef, Input } from "@angular/core";
 export class FontAwesomeIcon {
 
   @Input("fa-name")
-  set mdName(val: string) {
+  set faName(val: string) {
     this.el.nativeElement.innerHTML = val;
   }
 
-  constructor(
-    private el: ElementRef
-  ) { }
+  constructor(private el: ElementRef) {
 
+  }
 }

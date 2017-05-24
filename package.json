@@ -5,13 +5,12 @@
   "main": "dist/index.js",
 	"typings": "dist/index.d.ts",
 	"files": [
-		"src/**",
+		"dist/**",
 		"LICENSE",
     "README.md",
 		"tsconfig.json"
 	],
 	"scripts": {
-		"postinstall": "npm run build",
 		"build": "rm -rf dist aot && ngc && cp src/*.scss dist"
 	},
   "repository": {
