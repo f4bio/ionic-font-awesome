@@ -1,0 +1,38 @@
+$base: "~font-awesome/fonts";
+@font-face {
+  font-family: "FontAwesome";
+	font-style: normal;
+	font-weight: normal;
+  src: url("#{$base}/fontawesome-webfont.eot"); /* For IE6-8 */
+  src: local("#{$base}/FontAwesome"),
+  local("#{$base}/fontawesome-webfont"),
+  url("#{$base}/fontawesome-webfont.woff2") format("woff2"),
+  url("#{$base}/fontawesome-webfont.woff") format("woff"),
+  url("#{$base}/fontawesome-webfont.ttf") format("truetype");
+}
+
+ion-icon[fa-name] {
+  font-family: "FontAwesome";
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  width: auto;
+  height: auto;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+ion-icon[fa-name][item-left], ion-icon[fa-name][item-right] {
+  margin-right: 4px;
+}

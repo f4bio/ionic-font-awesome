@@ -1,0 +1,20 @@
+{
+  "ignore": [
+    "node_modules"
+  ],
+  "presets": [
+    "angular2",
+    "es2015"
+  ],
+  "sourceMaps": true,
+  "plugins": [
+    "version-inline",
+    "lodash-modularize",
+    "add-module-exports",
+    "angular2-annotations",
+    "typecheck",
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-flow-strip-types"
+  ]
+}
