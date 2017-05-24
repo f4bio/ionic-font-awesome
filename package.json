@@ -1,5 +1,5 @@
 {
-  "name": "ionic2-fontawesome-icons",
+  "name": "ionic2-font-awesome",
   "version": "1.0.0",
   "description": "FontAwesome for Ionic 2 Apps",
   "main": "dist/index.js",
@@ -25,9 +25,9 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/f4bio/ionic2-fontawesome-icons/issues"
+    "url": "https://github.com/f4bio/ionic2-font-awesome/issues"
   },
-  "homepage": "https://github.com/f4bio/ionic2-fontawesome-icons#readme",
+  "homepage": "https://github.com/f4bio/ionic2-font-awesome#readme",
   "devDependencies": {
     "@angular/core": "4.1.3",
     "font-awesome": "4.7.0",
