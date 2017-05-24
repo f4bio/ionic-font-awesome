@@ -11,6 +11,5 @@ export class FontAwesomeIcon {
   }
 
   constructor(private el: ElementRef) {
-
   }
 }
