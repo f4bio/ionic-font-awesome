@@ -9,6 +9,7 @@
     "fonts"
   ],
   "scripts": {
+    "postinstall": "rm -rf dist aot && ngc && cp src/*.scss dist",
     "build": "rm -rf dist aot && ngc && cp src/*.scss dist"
   },
   "repository": {
