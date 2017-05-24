@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "FontAwesome for Ionic 2 Apps",
   "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "fonts"
-  ],
-  "scripts": {
-    "postinstall": "rm -rf dist aot && ngc && cp src/*.scss dist",
-    "build": "rm -rf dist aot && ngc && cp src/*.scss dist"
-  },
+	"typings": "dist/index.d.ts",
+	"files": [
+		"src/**",
+		"LICENSE",
+    "README.md",
+		"tsconfig.json"
+	],
+	"scripts": {
+		"postinstall": "npm run build",
+		"build": "rm -rf dist aot && ngc && cp src/*.scss dist"
+	},
   "repository": {
     "type": "git",
     "url": "https://github.com/f4bio/ionic2-font-awesome"
@@ -26,7 +28,7 @@
     "url": "https://github.com/f4bio/ionic2-fontawesome-icons/issues"
   },
   "homepage": "https://github.com/f4bio/ionic2-fontawesome-icons#readme",
-  "dependencies": {
+  "devDependencies": {
     "@angular/core": "4.1.3",
     "font-awesome": "4.7.0",
     "@angular/compiler": "4.1.3",

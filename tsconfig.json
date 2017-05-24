@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "module": "es2015",
-    "target": "es5",
+    "module": "commonjs",
     "moduleResolution": "node",
+    "target": "es5",
     "sourceMap": true,
     "declaration": true,
     "noImplicitAny": false,
@@ -11,14 +11,13 @@
       "dom",
       "es2015"
     ],
-    "outDir": "dist"
+    "outDir": "./dist"
   },
   "include": [
     "src/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "dist"
+    "node_modules"
   ],
   "angularCompilerOptions": {
     "genDir": "aot"
