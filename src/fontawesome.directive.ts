@@ -7,8 +7,7 @@ export class FontAwesomeIcon {
 
   @Input("fa-name")
   set faName(val: string) {
-    console.log("FontAwesomeIcon:", val);
-    this.el.nativeElement.innerHTML = val;
+    this.el.nativeElement.className = "fa fa-"+val;
   }
 
   constructor(private el: ElementRef) {

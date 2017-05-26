@@ -1,0 +1,34 @@
+{
+  "extends": [
+    "codelyzer",
+    "tslint-eslint-rules"
+  ],
+  "rules": {
+    "jsdoc-require": [
+      true
+    ],
+    "semicolon": [
+      true,
+      "always"
+    ],
+    "quotemark": [
+      true,
+      "double"
+    ],
+    "max-line-length": [
+      true,
+      120
+    ],
+    "use-input-property-decorator": true,
+    "use-output-property-decorator": true,
+    "use-host-property-decorator": true,
+    "no-attribute-parameter-decorator": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "no-forward-ref": true,
+    "use-life-cycle-interface": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true
+  }
+}

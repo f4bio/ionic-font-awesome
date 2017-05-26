@@ -1,8 +1,9 @@
-import { NgModule } from "@angular/core";
-import { FontAwesomeIcon } from "./fontawesome.directive";
+import {NgModule} from "@angular/core";
+import {FontAwesomeIcon} from "./fontawesome.directive";
 
 @NgModule({
   declarations: [FontAwesomeIcon],
   exports: [FontAwesomeIcon]
 })
-export class FontAwesomeModule { }
+export class FontAwesomeModule {
+}

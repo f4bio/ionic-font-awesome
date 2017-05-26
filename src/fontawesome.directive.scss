@@ -1,35 +1,38 @@
-@font-face {
-  font-family: 'FontAwesome';
-  font-style: normal;
-  font-weight: normal;
-  src: url('#{$font-path}/fontawesome-webfont.eot'); // /* For IE6-8 */
-  src: local('#{$font-path}/FontAwesome'),
-  local('#{$font-path}/fontawesome-webfont'),
-  url('#{$font-path}/fontawesome-webfont.woff2') format('woff2'),
-  url('#{$font-path}/fontawesome-webfont.woff') format('woff'),
-  url('#{$font-path}/fontawesome-webfont.ttf') format('truetype');
-}
-
-[fa-name] {
-  direction: ltr;
-  font-family: 'FontAwesome', serif;
-  // /* Support for IE. */
-  font-feature-settings: 'liga';
-  // /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-  // /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  height: auto;
-  letter-spacing: normal;
-  // /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-  text-transform: none;
-  white-space: nowrap;
-  width: auto;
-  word-wrap: normal;
-}
-
-[fa-name][item-left],
-[fa-name][item-right] {
-  margin-right: 4px;
-}
+//@import "../assets/fonts/font-awesome.css";
+@import "~font-awesome/scss/font-awesome.scss";
+//
+//@font-face {
+//  font-family: 'FontAwesome';
+//  font-style: normal;
+//  font-weight: normal;
+//  src: url('#{$font-path}/fontawesome-webfont.eot'); // /* For IE6-8 */
+//  src: local('#{$font-path}/FontAwesome'),
+//  local('#{$font-path}/fontawesome-webfont'),
+//  url('#{$font-path}/fontawesome-webfont.woff2') format('woff2'),
+//  url('#{$font-path}/fontawesome-webfont.woff') format('woff'),
+//  url('#{$font-path}/fontawesome-webfont.ttf') format('truetype');
+//}
+//
+//[fa-name] {
+//  direction: ltr;
+//  font-family: 'FontAwesome', serif;
+//  // /* Support for IE. */
+//  font-feature-settings: 'liga';
+//  // /* Support for Firefox. */
+//  -moz-osx-font-smoothing: grayscale;
+//  // /* Support for all WebKit browsers. */
+//  -webkit-font-smoothing: antialiased;
+//  height: auto;
+//  letter-spacing: normal;
+//  // /* Support for Safari and Chrome. */
+//  text-rendering: optimizeLegibility;
+//  text-transform: none;
+//  white-space: nowrap;
+//  width: auto;
+//  word-wrap: normal;
+//}
+//
+//[fa-name][item-left],
+//[fa-name][item-right] {
+//  margin-right: 4px;
+//}
