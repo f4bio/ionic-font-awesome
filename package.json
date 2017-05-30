@@ -24,9 +24,9 @@
   },
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/f4bio/ionic2-font-awesome/issues"
+    "url": "https://github.com/f4bio/ionic-font-awesome/issues"
   },
-  "homepage": "https://github.com/f4bio/ionic2-font-awesome#readme",
+  "homepage": "https://github.com/f4bio/ionic-font-awesome#readme",
   "devDependencies": {
     "@angular/compiler": "4.1.3",
     "@angular/compiler-cli": "4.1.3",
