@@ -1,5 +1,5 @@
 {
-  "name": "ionic2-font-awesome",
+  "name": "ionic-font-awesome",
   "version": "1.0.0",
   "description": "FontAwesome for Ionic 2 Apps",
   "main": "dist/index.js",
